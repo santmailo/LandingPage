@@ -1,0 +1,121 @@
+body{
+    max-height: 100vh;
+    margin: 0px;
+    padding: 0;
+}
+
+header{
+    min-height: 10vh;
+}
+
+nav{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background: cornflowerblue;
+    padding: 10px;
+}
+
+main{
+    min-height: 60vh;
+    /*border: 1px solid red;*/
+}
+
+footer{
+    min-height: 30vh;
+    max-width: 100%;
+    background : royalblue;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+
+
+header a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+#home{
+    overflow: hidden;
+    text-align: center;
+    width: 50%;
+    height: 200px;
+    margin: 100px auto;
+    /*border: 1px solid blue;*/
+}
+
+#home p{
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+#home a{
+    background: royalblue;
+    color: white;
+    font-weight: lighter;
+    border: 1px solid;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#product{
+    display: flex;
+}
+
+#col-1,#col-2{
+    width: 50%;
+    /*border: 1px solid black;*/
+    text-align: center;
+    overflow: hidden;
+}
+
+#col-1{
+    background-color: royalblue;
+    color: white;
+}
+
+#col-2{
+    background-color: aliceblue;
+    color: blueviolet;
+}
+
+#contact{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    width: 100%;
+}
+
+footer #contact-col1{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    border: 1px solid black;
+}
+
+#contact-col1 div{
+    display: flex;
+    justify-content: space-around;
+}
+
+#contact-col1 div a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+}
+
+#contact-col2{
+    max-width: 100%;
+}
